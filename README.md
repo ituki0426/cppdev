@@ -1,7 +1,8 @@
-# sudo service docker start 
-# docker-compose up -d
-#  docker image ls
-# docker container exec -it cppdev /bin/sh    
-# cd /cppdev/src
-# g++ hello.cpp -o hello
-# ./hello
+# Dockerの起動
+ - sudo service docker start 
+# コンテナの起動
+ - docker-compose up -d
+# コンテナに接続
+ - docker container exec -it cppdev /bin/sh    
+# srcディレクトリに移動
+ - cd /cppdev/src
